@@ -2,42 +2,28 @@
 	"pages":
 	 [
 	    {
-            "path" : "pages/home/home",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
+            "path" : "pages/home/home"
         },
 		{
-            "path" : "pages/cate/cate",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
+            "path" : "pages/cate/cate"
         }
         ,{
-            "path" : "pages/cart/cart",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
+            "path" : "pages/cart/cart"
         }
         ,
 		{
-            "path" : "pages/my/my",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
+            "path" : "pages/my/my"
         }
     ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "斯盛的小店",
+		"navigationBarBackgroundColor": "#C00000",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
 	"tabBar": {
 	    "selectedColor": "#C00000",
 	    "list": [
@@ -66,15 +52,5 @@
 	        "selectedIconPath": "static/tab_icons/my-active.png"
 	      }
 	    ]
-	  },
-	"globalStyle": 
-	{
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"app-plus": {
-			"background": "#efeff4"
-		}
-	}
+	  }
 }
