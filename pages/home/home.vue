@@ -94,7 +94,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   swiper {
     height: 330rpx;
 
