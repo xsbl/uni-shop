@@ -99,5 +99,6 @@
 	        "selectedIconPath": "static/tab_icons/my-active.png"
 	      }
 	    ]
-	  }
+	  },
+	  "requiredPrivateInfos": ["chooseAddress"]
 }
